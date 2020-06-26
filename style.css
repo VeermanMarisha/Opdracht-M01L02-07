@@ -1,0 +1,109 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+
+    font-family: sans-serif;
+    font-size: 18px; /* 16px is default */
+    font-weight: normal;
+    /* zelfde resultaat als hierboven */
+    font: normal 18px sans-serif;
+
+    /* em wordt meestal gebruikt voor lijn hoogte en responsive websites */
+    line-height: 1.5em;
+}
+
+header {
+    margin-bottom: 50px;
+    height: 60px;
+}
+
+main {
+    margin-bottom: 100px;
+}
+
+footer {
+    height: auto;
+    background-color: oldlace;
+}
+
+img {
+    width: 300px;
+}
+
+h1 {
+    padding: 0;
+    display: inline;
+}
+
+.primary-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+.primary-nav li {
+    display: inline;
+}
+
+.primary-nav a {
+    display: inline-block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.primary-nav a:hover {
+    text-decoration: underline;
+}
+
+.primary-nav li:last-child, .primary-nav li:nth-last-child(2) {
+    float: right;
+}
+
+.top-banner, .bottom-banner { 
+    border: 5px black solid;
+    width: 960px;
+    height: 90px;
+    margin: 20px auto;
+}
+
+.blog {
+    border: 1px lightgray solid;
+    padding: 20px 10px; 
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+.blog p {
+    letter-spacing: 1px;
+    color: grey;
+    font-family: Georgia;
+}
+
+.border-color {
+    border: olive 2px solid;
+}
+
+.border-bottom {
+    border-bottom: 1px rosybrown solid;
+}
+
+.logo {
+    text-transform: none;
+}
+
+.logo a:hover {
+    text-decoration: none;
+}
+
+.copy {
+    font-size: 12px;
+    margin: 20px;
+    padding: 20px 10px;
+}
